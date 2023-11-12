@@ -13,17 +13,17 @@ Chat Web App • Live Link: https://chat-web-react.vercel.app/
 
 ![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/login-page.png)
 
-## Home Page:
+## Register Page:
 
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page.png)
+![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/register-page.png)
+
+## Home Page With Image Chat:
+
+![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page-image-chat.png)
 
 ## Home Page With User Search:
 
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page-search-user.png)
-
-## Home Pages With Responsive Design:
-
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page-responsive-design.png)
+![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page-user-search.png)
 
 # Getting Started with Create React App
 
