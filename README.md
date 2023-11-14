@@ -2,11 +2,11 @@
 
 Chat Web App • Live Link: https://chat-web-react.vercel.app/
 
-• Tech Stack: JavaScript, React, Tailwind CSS, Firebase, Vercel
+• Tech Stack: JavaScript, React, Tailwind CSS, Firebase & Vercel
 
-• Implemented chat features like real-time chat with timestamps, text chat, image chat, searching users & profile picture. Deployed app on Vercel
+• Implemented real-time chat functionalities including text & image chat with timestamps, user search & profile picture integration. Deployed the application on Vercel
 
-• Used External API endpoints like Firebase Authentication, Storage, Firestore Database for Login & Signup, image storage, chat storage
+• Integrated external API endpoints such as Firebase Authentication, Storage & Firestore Database to facilitate Login & Signup processes, image storage & chat data management
 
 
 ## Login Page:
