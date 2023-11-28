@@ -6,7 +6,7 @@ Chat Web App • Live Link: https://chat-web-react.vercel.app/
 
 • Implemented real-time chat functionalities such as text & image chat with timestamps, user search & profile picture integration which can improve user engagement, satisfaction, collaboration & productivity up to 20%. Deployed the application on Vercel.
 
-• Integrated external API endpoints such as Firebase Authentication, Storage & Firestore Database to facilitate Login & Signup processes, image storage & chat data management, which can improve security, maintainability up to 20%.
+• Utilized external API endpoints such as Firebase Authentication, Storage & Firestore Database to facilitate Login & Signup processes, image storage & chat data management, which can improve security, maintainability up to 20%.
 
 
 ## Login Page:
