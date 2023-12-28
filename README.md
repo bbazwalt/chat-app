@@ -9,22 +9,6 @@ Chat Web App • Live Link: https://chat-web-react.vercel.app/
 •	Utilized external API endpoints such as Firebase Cloud Authentication, Storage & Firestore Database to facilitate login & signup, image storage & chat data management, which can improve security, maintainability up to 20%. Deployed the React app on Vercel.
 
 
-## Login Page:
-
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/login-page.png)
-
-## Register Page:
-
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/register-page.png)
-
-## Home Page With Image Chat:
-
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page-image-chat.png)
-
-## Home Page With User Search:
-
-![Alt Text](https://github.com/bbazwalt/chat-app/blob/main/screenshots/home-page-user-search.png)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
