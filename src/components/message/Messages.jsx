@@ -18,7 +18,6 @@ const Messages = () => {
     };
   }, [data.chatId]);
 
-  console.log(messages);
 
   return (
     <div className=" bg-sky-200 p-2 h-[calc(100%-96px)] overflow-scroll	">
@@ -26,6 +25,7 @@ const Messages = () => {
         <Message message={m} key={m.id} />
       ))}
     </div>
+    
   );
 };
 

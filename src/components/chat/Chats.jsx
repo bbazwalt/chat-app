@@ -4,9 +4,8 @@ import { AuthContext } from "../../context/AuthContext";
 import { ChatContext } from "../../context/ChatContext";
 import { db } from "../../config/firebase";
 
-const Chats = () => {
+const Chats = ({ setActiveChat }) => {
   const [chats, setChats] = useState([]);
-
   const { currentUser } = useContext(AuthContext);
   const { dispatch } = useContext(ChatContext);
 
@@ -29,7 +28,9 @@ const Chats = () => {
   };
 
   return (
-    <div>
+    <div onClick={() => {
+      setActiveChat(true);
+    }}>
       {Object.entries(chats)
         ?.sort((a, b) => b[1].date - a[1].date)
         .map((chat) => (

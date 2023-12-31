@@ -1,13 +1,17 @@
-import React from "react";
-import Sidebar from "../components/shared/Sidebar";
+import React, { useState } from "react";
 import Chat from "../components/chat/Chat";
+import Sidebar from "../components/shared/Sidebar";
+import icon from "../assets/icon.jpg";
 
 const Home = () => {
+  const [activeChat, setActiveChat] = useState(false);
+
   return (
-    <div className=" flex bg-sky-600	h-screen items-center justify-center">
-      <div className="mx-8 flex rounded-xl	w-11/12 h-full	overflow-hidden	">
-        <Sidebar />
-        <Chat />
+    <div className="bg-sky-700 flex h-screen items-center justify-center">
+      <div className=" flex w-full h-full	overflow-hidden	">
+        <Sidebar setActiveChat={setActiveChat} />
+        {!activeChat && <img src={icon} width="1200" alt="" />}
+        {activeChat && <Chat />}
       </div>
     </div>
   );
