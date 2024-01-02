@@ -1,10 +1,10 @@
-import React, { useState } from "react";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { auth, db, storage } from "../config/firebase";
-import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
-import { useNavigate, Link } from "react-router-dom";
+import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
+import React, { useState } from "react";
 import { FcAddImage } from "react-icons/fc";
+import { Link, useNavigate } from "react-router-dom";
+import { auth, db, storage } from "../config/firebase";
 
 const Register = () => {
   const [err, setErr] = useState(false);

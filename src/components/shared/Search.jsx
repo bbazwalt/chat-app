@@ -1,15 +1,15 @@
-import React, { useContext, useState } from "react";
 import {
   collection,
-  query,
-  where,
-  getDocs,
-  setDoc,
   doc,
-  updateDoc,
-  serverTimestamp,
   getDoc,
+  getDocs,
+  query,
+  serverTimestamp,
+  setDoc,
+  updateDoc,
+  where,
 } from "firebase/firestore";
+import React, { useContext, useState } from "react";
 import { db } from "../../config/firebase";
 import { AuthContext } from "../../context/AuthContext";
 const Search = () => {

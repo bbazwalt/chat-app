@@ -1,17 +1,17 @@
-import React, { useContext, useState } from "react";
-import { AuthContext } from "../../context/AuthContext";
-import { ChatContext } from "../../context/ChatContext";
 import {
+  Timestamp,
   arrayUnion,
   doc,
   serverTimestamp,
-  Timestamp,
   updateDoc,
 } from "firebase/firestore";
-import { db, storage } from "../../config/firebase";
-import { v4 as uuid } from "uuid";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
+import React, { useContext, useState } from "react";
 import { FcAddImage } from "react-icons/fc";
+import { v4 as uuid } from "uuid";
+import { db, storage } from "../../config/firebase";
+import { AuthContext } from "../../context/AuthContext";
+import { ChatContext } from "../../context/ChatContext";
 
 const Input = () => {
   const [text, setText] = useState("");

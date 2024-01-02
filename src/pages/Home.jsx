@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import icon from "../assets/icon.jpg";
 import Chat from "../components/chat/Chat";
 import Sidebar from "../components/shared/Sidebar";
-import icon from "../assets/icon.jpg";
 
 const Home = () => {
   const [activeChat, setActiveChat] = useState(false);

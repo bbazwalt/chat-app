@@ -1,7 +1,7 @@
 import { doc, onSnapshot } from "firebase/firestore";
 import React, { useContext, useEffect, useState } from "react";
-import { ChatContext } from "../../context/ChatContext";
 import { db } from "../../config/firebase";
+import { ChatContext } from "../../context/ChatContext";
 import Message from "./Message";
 
 const Messages = () => {
@@ -18,14 +18,12 @@ const Messages = () => {
     };
   }, [data.chatId]);
 
-
   return (
     <div className=" bg-sky-200 p-2 h-[calc(100%-96px)] overflow-scroll	">
       {messages.map((m) => (
         <Message message={m} key={m.id} />
       ))}
     </div>
-    
   );
 };
 
